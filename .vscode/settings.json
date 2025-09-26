@@ -3,5 +3,15 @@
     "java.compile.nullAnalysis.mode": "disabled",
     "java.configuration.updateBuildConfiguration": "disabled",
     "java.import.gradle.enabled": false,
-    "java.gradle.buildServer.enabled": "off"
+    "java.gradle.buildServer.enabled": "off",
+    "kotlin.languageServer.enabled": true,
+    "kotlin.compiler.jvm.target": "11",
+    "kotlin.debugAdapter.enabled": false,
+    "kotlin.externalSources.useKlsScheme": true,
+    "kotlin.externalSources.autoConvertToKotlin": true,
+    "kotlin.languageServer.transport": "stdio",
+    "files.exclude": {
+    "**/.gradle": false,
+    "**/build": false
+  }
 }
